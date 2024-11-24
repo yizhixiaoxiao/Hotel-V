@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel V</title>
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<header class="container clear">
+    <div class="book_a_room right">
+        <div class="control">Book a room</div>
+        <form role="form">
+            <ul role="menu">
+                <li role="menuitem">
+                    <label aria-label="Arrival">
+                        Arrival:<input type="text">
+                    </label>
+                </li>
+                <li role="menuitem">
+                    <label aria-label="Departure">
+                        Departure:<input type="text">
+                    </label>
+                </li>
+                <li role="menuitem">
+                    <label aria-label="Nights">
+                        <input type="number" min="1" max="5" value="1" aria-valuemin="1" aria-valuemax="5"> Nights
+                    </label>
+                </li>
+                <li role="menuitem">
+                    <label aria-label="Adults">
+                        <input type="number" min="1" max="5" value="1" aria-valuemin="1" aria-valuemax="5"> Adults
+                    </label>
+                    <label aria-label="Children">
+                        <input type="number" min="1" max="5" value="1" aria-valuemin="1" aria-valuemax="5"> Children
+                    </label>
+                </li>
+                <li role="menuitem">
+                    <button role="button" type="submit">Check availability</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+</header>
+
+<article class="container flex_container main_wrap">
+    <section class="header">
+        <h1 role="heading" aria-level="1">Hotel V</h1>
+        <ul role="list">
+            <li role="listitem"><a href="#" role="link">Find a hotel</a></li>
+            <li role="listitem"><a href="#" role="link">Meeting&amp;Events</a></li>
+            <li role="listitem"><a href="#" role="link">About Hotel</a></li>
+        </ul>
+    </section>
+    <section class="nav_bar">
+        <h2 role="heading">Hotel detail</h2>
+        <ul class="nav" role="list">
+            <li role="listitem"><a href="#" role="link">Amenities</a></li>
+            <li role="listitem"><a href="#" role="link">Maps</a></li>
+            <li role="listitem"><a href="#" role="link">Room Type</a></li>
+        </ul>
+        <div class="check_in">
+            <h3 role="heading">Check in</h3>
+            <ul role="list">
+                <li role="listitem">Check In:3pm</li>
+                <li role="listitem">Chekc out:12pm</li>
+            </ul>
+        </div>
+        <div class="map">
+            <h3 role="heading">Map and Location</h3>
+            <img src="Images/map.png" alt="Our office location">
+        </div>
+    </section>
+    <section class="main" role="main">
+        <div class="meeting_and_events" role="article">
+            <h2 role="heading">Meeting and Events</h2>
+            <p>We provide venues for different types of events:</p>
+            <ul class="row photo_list">
+                <li class="col_xxl_4">
+                    <img src="Images/5016.png" alt="Gathering" role="img">
+                    <span>Gathering</span>
+                </li>
+                <li class="col_xxl_4">
+                    <img src="Images/5015.png" alt="Meetings" role="img">
+                    <span>Meetings</span>
+                </li>
+                <li class="col_xxl_4">
+                    <img src="Images/5040.png" alt="Workshops" role="img">
+                    <span>Workshops</span>
+                </li>
+            </ul>
+            <p>See how our customer said on the project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project.</p>
+            <p>This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project.</p>
+        </div>
+        <div role="article" class="photo_gallery">
+            <h2 role="heading">Photo Gallery</h2>
+            <canvas id="photo-gallery" width="500" height="250">
+                <img src="Images/photo-1.png" alt="Workspace for meeting" role="img">
+                <img src="Images/photo-2.png" alt="Having fun" role="img">
+                <img src="Images/photo-3.png" alt="Table inside room" role="img">
+                <img src="Images/photo-4.png" alt="Sea-side view" role="img">
+                <img src="Images/photo-5.jpeg" alt="Nice beach" role="img">
+            </canvas>
+            <p>This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project. This is a sample project. This is really just a sample project. A sample project.</p>
+            <div class="photo_row" role="complementary">
+                <img src="Images/5018.png" alt="Don’t just hear what we say." role="img">
+                <span>Don’t just hear what we say</span>
+            </div>
+        </div>
+        <div class="testimonials flex_container" role="article">
+            <div class="text_block">
+                <h2 role="heading">Testimonials</h2>
+                <blockquote>
+                    Great hotel and convienent location. Absolutely five stars!
+                </blockquote>
+                <p>This is a sample text. This is really just a sample text. A sample text. This is a sample text. This is really just a sample text. A sample text. This is a sample text. This is really just a sample text. A sample text. This is a sample text. This is really just a sample text. A sample text. This is a sample text. This is really just a sample text. A sample text. This is a sample text. This is really just a sample text. A sample text.</p>
+            </div>
+            <div class="img_block">
+                <ul>
+                   <li><img src="Images/4912.png" alt="Photo outside hotel." role="img"></li>
+                   <li><img src="Images/5029.png" alt="Photo inside room." role="img"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="right_bar">
+        <h3 role="heading">Things to da</h3>
+        <ul class="row ads_list">
+            <li class="col_xxl_6 col_xl_12"><img src="Images/ads.png" alt="Advertisement."></li>
+            <li class="col_xxl_6 col_xl_12"><img src="Images/ads.png" alt="Advertisement."></li>
+            <li class="col_xxl_6 col_xl_12"><img src="Images/ads.png" alt="Advertisement."></li>
+            <li class="col_xxl_6 col_xl_12"><img src="Images/ads.png" alt="Advertisement."></li>
+        </ul>
+        <span>Become sponser.</span>
+    </section>
+</article>
+
+<role="contentinfo">
+    <div class="container">
+        <ul class="row">
+            <li class="col_xxl_3 col_m_6">
+                <h4>Contact</h4>
+                <p>hello@example.com</p>
+                <p>2088 Meadow Lane,<br/>Cranford, NJ 0701</p>
+            </li>
+            <li class="col_xxl_3 col_m_6">
+                <h4>Footer</h4>
+                <p>Footer Col Footer Col Footer Col Footer Col Footer Col Footer Col </p>
+            </li>
+            <li class="col_xxl_3 col_m_6">
+                <h4>Subscribe</h4>
+                <p>Subscribe our newsletter for news.</p>
+            </li>
+            <li class="col_xxl_3 col_m_6">
+                <h4>Hotels Group</h4>
+                <p>We have hotels all over the world.</p>
+                <ul class="row icon_list">
+                    <li class="col_xxl_4"><img src="Images/icon.gif" alt="icon"></li>
+                    <li class="col_xxl_4"><img src="Images/icon.gif" alt="icon"></li>
+                    <li class="col_xxl_4"><img src="Images/icon.gif" alt="icon"></li>
+                    <li class="col_xxl_4"><img src="Images/icon.gif" alt="icon"></li>
+                    <li class="col_xxl_4"><img src="Images/icon.gif" alt="icon"></li>
+                    <li class="col_xxl_4"><img src="Images/icon.gif" alt="icon"></li>
+                </ul>
+            </li>
+            <li class="col_xxl_12">&copy; 2015. WorldSkills.</li>
+        </ul>
+    </div>
+</footer>
+
+<script src="photo-gallery.js"></script>
+</body>
+</html>

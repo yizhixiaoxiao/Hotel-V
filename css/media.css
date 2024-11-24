@@ -1,0 +1,174 @@
+@media(max-width: 1250px){
+    .container{
+        max-width:1125px;
+    }
+    .main_wrap{
+        margin-top:35px;
+        margin-bottom:60px;
+    }
+    .right_bar{
+        flex:0 0 150px;
+    }
+    .right_bar .ads_list{
+        margin-top:20px;
+    }
+    .nav_bar{
+        flex:0 0 168px;
+    }
+    .header{
+        flex:0 0 113px;
+    }
+    p{
+        padding-right:3px;
+    }
+    footer .icon_list img{
+        margin:0;
+    }
+}
+@media(max-width: 950px){
+    .main_wrap{
+        margin-top:20px;
+        margin-bottom:48px;
+    }
+    .container{
+        max-width:855px;
+    }
+    .header{
+        flex:0 0 142px;
+    }
+    .right_bar{
+        display: none;
+    }
+    .nav_bar{
+        flex:0 0 178px;
+    }
+    .testimonials .img_block{
+        flex:0 0 56.5%;
+    }
+    .testimonials .text_block p{
+        padding-right:20px;
+        padding-top:2px;
+    }
+}
+
+@media (max-width: 650px) {
+    .container{
+        max-width:585px;
+    }
+    .main_wrap{
+        margin-top:13px;
+        margin-bottom:32px;
+    }
+    .main_wrap.flex_container{
+        flex-flow:row wrap;
+    }
+    .header{
+        flex:0 0 100%;
+    }
+    .header h1,
+    .header li{
+        float: left;
+        width:25%;
+    }
+    .header li{
+        line-height:45px;
+        padding-left:5px;
+    }
+    .header li:nth-child(2){
+        padding-left:11px;
+    }
+    .header li:nth-child(3){
+        padding-left:15px;
+    }
+    .nav_bar{
+        flex:0 0 146px;
+    }
+    .testimonials .img_block{
+        flex:0 0 30%;
+    }
+    footer .col_m_6{
+        min-height:122px;
+    }
+    .meeting_and_events .photo_list span{
+        font-size:18px;
+        bottom:27px;
+    }
+}
+@media(max-width: 460px){
+    .container{
+        max-width:415px;
+    }
+    .book_a_room form{
+        display: none;
+    }
+    .book_a_room{
+        width:100%;
+    }
+    .book_a_room .control{
+        background-color: rgba(0, 0, 0, 0);
+        padding:0;
+        text-align: center;
+        width:100%;
+        margin-top:35px;
+    }
+    .main_wrap{
+        margin-top:18px;
+        margin-bottom:22px;
+    }
+    .header h1{
+        width:100%;
+    }
+    .header li{
+        width:32.5%;
+        line-height:29px;
+        margin-bottom:-27px;
+        padding:0;
+    }
+    .header li:nth-child(3){
+        padding-left:20px;
+    }
+    .main_wrap.flex_container{
+        flex-flow: column wrap;
+    }
+    .nav_bar{
+        order:2;
+    }
+    .nav_bar .nav{
+        display: none;
+    }
+    .testimonials.flex_container{
+        flex-flow:column wrap;
+    }
+    .testimonials .text_block{
+        order:2;
+        margin-top:-2px;
+    }
+    .testimonials .img_block img{
+        width:47.5%;
+        float: left;
+    }
+    .testimonials .img_block li:nth-child(2) img{
+        float: right;
+    }
+    blockquote{
+        padding-right:15px;
+    }
+    .testimonials .text_block p{
+        padding-right:0;
+    }
+    .nav_bar{
+        margin-top:-2px;
+    }
+    .nav_bar h2{
+        margin-bottom:16px;
+    }
+    .nav_bar .check_in h3{
+        margin-bottom:13px;
+    }
+    .nav_bar .map{
+        margin-top:-2px;
+    }
+    .nav_bar{
+        padding-bottom:6px;
+    }
+}
